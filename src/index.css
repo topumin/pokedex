@@ -36,7 +36,7 @@ body {
   font-size: 33px;
   padding: 14px 0;
   background-color: white;
-  box-shadow: 0 2px 4px #eeeeeeAA;
+  /* box-shadow: 0 2px 4px #aeaeaeAA; */
 }
 
 .footer {
@@ -71,7 +71,7 @@ body {
 
 /* Modal */
 .ReactModal__Overlay {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: #000000a3 !important;
 }
 
 .modal-wrap {
@@ -92,7 +92,7 @@ body {
   width: 960px;
   height: 700px;
   background-color: white;
-  box-shadow: 0 2px 4px #eee;
+  box-shadow: 0 2px 4px #474444;
   border: none;
   outline: none;
 }
@@ -106,9 +106,9 @@ form {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 1px solid #e6e6e6;
   margin-top: 20px;
-  box-shadow: 0 2px 2px #ccccccAA;
+  box-shadow: 0 2px 2px #e6e6e6;
 }
 
 input {
@@ -137,10 +137,10 @@ input[type=text] {
 }
 
 .modal-list-item {
-  background-color: #e6e6e6;
+  background-color: #f3f4f7;
   padding: 15px;
   margin-top: 20px; 
-  box-shadow: 0 2px 2px #ccccccAA;
+  box-shadow: 0 2px 2px #d5d6dc;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -163,7 +163,7 @@ input[type=text] {
  }
 
 .modal-list-item:hover{
-  box-shadow: 0 4px 4px #bbbbbbAA;
+  box-shadow: 0 4px 4px #aeaeae;
 }
 
 .modal-list-item .card img{
@@ -193,7 +193,7 @@ input[type=text] {
   align-items: center;
 }
 
-.modal-list-item .type label{
+.modal-list-item .type label {
   text-align: left;
   width: 100px;
   font-size: 18px;
@@ -203,8 +203,9 @@ input[type=text] {
   position: relative;
   height: 24px;
   border-radius: 12px;
-  background-color: #aeaeae;
+  background-color: #e4e4e4;
   width: 350px;
+  box-shadow: 0 2px 2px #d4d4d4;
 }
 
 .modal-list-item .result {
@@ -232,11 +233,11 @@ input[type=text] {
 
 /* list Item (Card) */
 .list-item {
-  background-color: #e6e6e6;
+  background-color: #f3f4f7;
   padding: 15px;
   margin: 10px;
   width: 440px;
-  box-shadow: 0 2px 2px #ccccccAA;
+  box-shadow: 0 2px 2px #aeaeaeAA;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -259,7 +260,7 @@ input[type=text] {
 }
 
 .list-item:hover{
-  box-shadow: 0 4px 4px #bbbbbbAA;
+  box-shadow: 0 4px 4px #aeaeae;
 }
 
 .card img{
@@ -299,7 +300,8 @@ input[type=text] {
   position: relative;
   height: 24px;
   border-radius: 12px;
-  background-color: #aeaeae;
+  background-color: #e4e4e4;
+  box-shadow: 0 2px 2px #d4d4d4;
   width: 160px;
 }
 
